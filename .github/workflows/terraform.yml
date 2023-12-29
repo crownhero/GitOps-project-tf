@@ -5,13 +5,13 @@ on:
        - main
        - stage
     paths:
-      - terraform/**
+      - 'terraform/**'
   pull_request:
     branches:
        - main
        - stage
     paths:
-      - terraform/**
+      - 'terraform/**'
 
 env:
 #credentials for aws depoyment
